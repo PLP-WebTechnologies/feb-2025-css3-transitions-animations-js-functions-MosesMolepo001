@@ -1,23 +1,35 @@
-# CSS3 Transitions, Animations, and Advanced JavaScript Functions
+# Button Animation with localStorage
 
-## Objectives
+This is a simple web project demonstrating how to create smooth CSS animations triggered by user actions, with user preferences stored and retrieved using `localStorage`.
 
-Create smooth CSS transitions and animations.
-Use JavaScript functions for dynamic behavior.
-Implement local storage for data persistence.
+## Features
 
-## Instructions
-Add CSS animations to elements like buttons or images.
+- **CSS Animation:** A pulse animation applied to a button.
+- **User Preference:** Toggle to enable or disable animation.
+- **Persistence:** Animation preference is saved in `localStorage` and applied automatically on page reload.
+- **Dynamic Behavior:** JavaScript triggers animation on button click if enabled.
 
->[!NOTE]
-> - Write a JavaScript function that:
-> - Stores and retrieves user preferences using localStorage.
-> - Implements an animation triggered by user actions.
+## Files
 
-## Tasks
+- `index.html` — Main HTML page with the button and toggle checkbox.
+- `styles.css` — Contains button styles and CSS keyframe animation.
+- `script.js` — JavaScript logic to handle animation triggering and localStorage persistence.
 
-Create a CSS animation.
-Store data in localStorage.
-Apply JavaScript to trigger animations.
+## How to Use
 
-Happy Coding! 💻✨
+1. Open `index.html` in your web browser.
+2. Click the **"Click me!"** button to trigger the pulse animation (if enabled).
+3. Use the checkbox to enable or disable the animation.
+4. The preference will be saved and loaded automatically on future visits.
+
+## Requirements
+
+- Modern web browser with JavaScript enabled.
+
+## License
+
+This project is open source and free to use.
+
+---
+
+Created as a demonstration for combining CSS animations with JavaScript and localStorage.
